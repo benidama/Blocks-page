@@ -1,6 +1,7 @@
 * {
   padding: 0px;
   margin: 0px;
+  font-family: Poppins;
 }
 
 .container {
@@ -14,12 +15,26 @@
   display: flex;
   gap: 20px;
   flex-direction: column;
+  padding: 20px 0px 30px 0px;
+  background-image: url(./images/bg-hero-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
 }
+
+#body-section {
+  display: flex;
+  gap: 7px;
+
+  width: max-content;
+}
+
 .logo-button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 .mockup-style {
   width: 200px;
   height: 120px;
@@ -33,4 +48,42 @@
 .working-style {
   display: flex;
   flex-direction: column;
+  border: solid 2px #ddd9d9eb;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  font-size: 8px;
+}
+
+.text-img {
+  display: flex;
+  gap: 20px;
+}
+
+.team-work {
+  display: flex;
+  gap: 15px;
+}
+
+.logo {
+  width: 70px;
+  height: 15px;
+}
+
+.footer-section {
+  background-color: hsl(192, 100%, 9%);
+  width: 100%;
+  /* gap: 10px; */
+  justify-content: space-around;
+  padding: 15px 20px 20px 30px;
+  color: hsl(208, 11%, 55%);
+  /* font-family: 600; */
+  font-weight: bold;
 }

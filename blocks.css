@@ -12,10 +12,7 @@
 }
 
 .header {
-  display: flex;
-  gap: 20px;
   flex-direction: column;
-  padding: 20px 0px 30px 0px;
   background-image: url(./images/bg-hero-desktop.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -24,15 +21,16 @@
 
 #body-section {
   display: flex;
-  gap: 7px;
-
-  width: max-content;
+  gap: 20px;
+  position: relative;
+  width: 90%;
 }
 
 .logo-button {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 20px 30px 30px 30px;
 }
 
 .mockup-style {
@@ -58,8 +56,14 @@
   flex-direction: row;
 }
 
+.footer-info {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
 p {
-  font-size: 8px;
+  font-size: 18px;
 }
 
 .text-img {
@@ -77,13 +81,51 @@ p {
   height: 15px;
 }
 
+.img-contact {
+  width: 25px;
+  height: 12px;
+}
+
+.community {
+  width: 90%;
+  height: 180px;
+  background-color: bisque;
+  position: relative;
+  top: 130px;
+  left: 70px;
+  border-radius: 7px;
+  padding-top: 110px;
+}
+
+.position-btn {
+  width: 250px;
+  margin-top: 10px;
+  background-color: hsl(322, 100%, 66%);
+  border-radius: 25px;
+  height: 50px;
+}
+
+a {
+  text-decoration: none;
+}
 .footer-section {
   background-color: hsl(192, 100%, 9%);
   width: 100%;
-  /* gap: 10px; */
   justify-content: space-around;
   padding: 15px 20px 20px 30px;
   color: hsl(208, 11%, 55%);
-  /* font-family: 600; */
   font-weight: bold;
+}
+
+.footer {
+  padding-top: 100px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.footer-logo {
+  color: white;
+  width: 120px;
+  height: 50px;
 }
